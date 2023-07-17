@@ -6,3 +6,8 @@ def hello(a):
 
 a = 'welcome!'
 hello(a)
+
+def pull(x):
+    print('被拉回来了' * x)
+x = 20
+pull(x)
